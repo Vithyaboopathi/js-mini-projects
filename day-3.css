@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  height: 50vh;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+input,
+button {
+  padding: 8px;
+  margin: 8px 5px 0 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.output {
+  margin-top: 15px;
+  padding: 12px;
+  background: #eef2ff;
+  border-radius: 8px;
+  font-weight: bold;
+  white-space: pre-line;
+}
+.scrollable {
+  max-height: 100%;
+  overflow-y: auto;
+}

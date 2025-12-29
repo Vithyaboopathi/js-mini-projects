@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Day-4 JavaScript Mini Projects</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+      }
+
+      h1 {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .card {
+        height: 50vh;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        overflow-y: auto;
+      }
+
+      button {
+        padding: 8px 14px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+
+      input {
+        padding: 6px;
+        margin-top: 10px;
+        width: 200px;
+      }
+
+      .output {
+        margin-top: 15px;
+        background: #eef;
+        padding: 10px;
+        border-radius: 6px;
+        white-space: pre-line;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Day-4 JavaScript Mini Projects</h1>
+
+    <div class="container">
+      <!-- Project 1 -->
+      <div class="card">
+        <h2>1️⃣ Multiplication Table Generator</h2>
+        <input id="tableNum" type="number" placeholder="Enter number" />
+        <br />
+        <button onclick="generateTable()">Generate</button>
+        <div class="output" id="tableOutput"></div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="card">
+        <h2>2️⃣ Sum of Digits</h2>
+        <input id="digitNum" type="number" placeholder="Enter number" />
+        <br />
+        <button onclick="sumDigits()">Calculate</button>
+        <div class="output" id="digitOutput"></div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="card">
+        <h2>3️⃣ Multiples Finder (1-100)</h2>
+        <input id="multipleNum" type="number" placeholder="Enter number" />
+        <br />
+        <button onclick="findMultiples()">Find</button>
+        <div class="output" id="multipleOutput"></div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="card">
+        <h2>4️⃣ Star Pattern Generator</h2>
+        <button onclick="generatePattern()">Generate Pattern</button>
+        <div class="output" id="patternOutput"></div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="card">
+        <h2>5️⃣ ATM Cash Withdrawal</h2>
+        <input id="withdrawAmount" type="number" placeholder="Enter amount" />
+        <br />
+        <button onclick="withdrawCash()">Withdraw</button>
+        <div class="output" id="atmOutput"></div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="card">
+        <h2>6️⃣ Shopping Cart System</h2>
+        <input id="itemName" placeholder="Item name" />
+        <input id="itemPrice" type="number" placeholder="Price" />
+        <br />
+        <button onclick="addItem()">Add Item</button>
+        <button onclick="removeItem()">Remove Last</button>
+        <div class="output" id="cartOutput"></div>
+      </div>
+    </div>
+    <button><a href="day-2.html">Day 2 Mini Projects</a></button>
+    <button><a href="day-3.html">Day 3 Mini Projects</a></button>
+    <button><a href="day-4.html">Day 4 Mini Projects</a></button>
+    <script src="script.js"></script>
+  </body>
+</html>

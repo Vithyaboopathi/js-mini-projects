@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Mini Projects – Loops</title>
+    <link rel="stylesheet" href="day-4.css" />
+  </head>
+  <body>
+    <h1>JavaScript Mini Projects – Loops</h1>
+
+    <div class="container">
+      <!-- 1 Multiplication Table -->
+      <div class="card">
+        <h2>1️⃣ Multiplication Table Generator</h2>
+        <input type="number" id="tableNum" placeholder="Enter a number" />
+        <button onclick="generateTable()">Generate</button>
+        <div class="output" id="tableOutput"></div>
+      </div>
+
+      <!-- 2 Sum of Digits -->
+      <div class="card">
+        <h2>2️⃣ Sum of Digits</h2>
+        <input type="number" id="digitNum" placeholder="Enter a number" />
+        <button onclick="sumDigits()">Calculate</button>
+        <div class="output" id="digitOutput"></div>
+      </div>
+
+      <!-- 3 Multiples Finder -->
+      <div class="card">
+        <h2>3️⃣ Multiples Finder (1–100)</h2>
+        <input type="number" id="multipleNum" placeholder="Enter a number" />
+        <button onclick="findMultiples()">Find</button>
+        <div class="output" id="multipleOutput"></div>
+      </div>
+
+      <!-- 4 Pattern Generator -->
+      <div class="card">
+        <h2>4️⃣ Pattern Generator</h2>
+        <input type="number" id="patternRows" placeholder="Number of rows" />
+        <button onclick="generatePattern()">Generate</button>
+        <pre class="output" id="patternOutput"></pre>
+      </div>
+
+      <!-- 5 ATM System -->
+      <div class="card">
+        <h2>5️⃣ ATM Cash Withdrawal</h2>
+        <input type="number" id="withdrawAmt" placeholder="Withdraw amount" />
+        <button onclick="withdrawCash()">Withdraw</button>
+        <div class="output" id="atmOutput"></div>
+      </div>
+
+      <!-- 6 Shopping Cart -->
+      <div class="card">
+        <h2>6️⃣ Shopping Cart</h2>
+        <input id="itemName" placeholder="Item name" />
+        <input type="number" id="itemPrice" placeholder="Price" />
+        <button onclick="addItem()">Add Item</button>
+        <button onclick="removeItem()">Remove Last</button>
+        <div class="output" id="cartOutput"></div>
+      </div>
+    </div>
+
+    <script src="day-4.js"></script>
+  </body>
+</html>

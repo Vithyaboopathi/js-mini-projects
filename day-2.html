@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Day-3 Mini Projects</title>
+    <link rel="stylesheet" href="day-2.css" />
+  </head>
+  <body>
+    <h1>JavaScript Mini Projects – Conditional Logic</h1>
+
+    <div class="container">
+      <!-- 1 Voting -->
+      <div class="card">
+        <h2>1. Voting Eligibility System</h2>
+        <input id="voteAge" type="number" placeholder="Enter Age" />
+        <input id="voteCountry" placeholder="Enter Country" />
+        <button onclick="checkVoting()">Check</button>
+        <div class="output" id="voteOutput"></div>
+      </div>
+
+      <!-- 2 Temperature -->
+      <div class="card">
+        <h2>2. Temperature Converter</h2>
+        <input id="celsius" type="number" placeholder="Celsius" />
+        <button onclick="convertTemp()">Convert</button>
+        <div class="output" id="tempOutput"></div>
+      </div>
+
+      <!-- 3 Discount -->
+      <div class="card">
+        <h2>3. Discount Calculator</h2>
+        <input id="price" type="number" placeholder="Price" />
+        <input id="discount" type="number" placeholder="Discount %" />
+        <button onclick="calculateDiscount()">Calculate</button>
+        <div class="output" id="discountOutput"></div>
+      </div>
+
+      <!-- 4 Age Verification -->
+      <div class="card">
+        <h2>4. Age Verification</h2>
+        <input id="signupAge" type="number" placeholder="Enter Age" />
+        <button onclick="verifyAge()">Verify</button>
+        <div class="output" id="ageOutput"></div>
+      </div>
+
+      <!-- 5 Bill Split -->
+      <div class="card">
+        <h2>5. Bill Splitter</h2>
+        <input id="bill" type="number" placeholder="Total Bill" />
+        <input id="people" type="number" placeholder="People" />
+        <input id="tip" type="number" placeholder="Tip %" />
+        <button onclick="splitBill()">Split</button>
+        <div class="output" id="billOutput"></div>
+      </div>
+
+      <!-- 6 BMI -->
+      <div class="card">
+        <h2>6. BMI Calculator</h2>
+        <input id="weight" type="number" placeholder="Weight (kg)" />
+        <input id="height" type="number" placeholder="Height (m)" />
+        <button onclick="calculateBMI()">Calculate</button>
+        <div class="output" id="bmiOutput"></div>
+      </div>
+    </div>
+
+    <script src="day-2.js"></script>
+  </body>
+</html>

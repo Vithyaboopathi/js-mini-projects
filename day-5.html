@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Mini Projects – Functions</title>
+    <link rel="stylesheet" href="day-5.css" />
+  </head>
+  <body>
+    <h1>JavaScript Mini Projects – Functions & Arrays</h1>
+
+    <div class="container">
+      <!-- 1 Student Grade Calculator -->
+      <div class="card">
+        <h2>1️⃣ Student Grade Calculator</h2>
+        <input type="number" id="m1" placeholder="Subject 1" />
+        <input type="number" id="m2" placeholder="Subject 2" />
+        <input type="number" id="m3" placeholder="Subject 3" />
+        <button onclick="calculateGrade()">Calculate</button>
+        <div class="output" id="gradeOutput"></div>
+      </div>
+
+      <!-- 2 Grocery List -->
+      <div class="card">
+        <h2>2️⃣ Grocery Shopping List</h2>
+        <input id="groceryItem" placeholder="Item name" />
+        <button onclick="addGrocery()">Add</button>
+        <button onclick="removeGrocery()">Remove</button>
+        <div class="output" id="groceryOutput"></div>
+      </div>
+
+      <!-- 3 Tip Calculator -->
+      <div class="card">
+        <h2>3️⃣ Tip Calculator</h2>
+        <input type="number" id="billAmount" placeholder="Bill Amount" />
+        <input type="number" id="tipPercent" placeholder="Tip %" />
+        <button onclick="calculateTipUI()">Calculate</button>
+        <div class="output" id="tipOutput"></div>
+      </div>
+
+      <!-- 4 To-Do List -->
+      <div class="card">
+        <h2>4️⃣ Basic To-Do List</h2>
+        <input id="taskInput" placeholder="Task name" />
+        <button onclick="addTask()">Add</button>
+        <button onclick="viewTasks()">View</button>
+        <button onclick="deleteTask()">Delete Last</button>
+        <div class="output" id="todoOutput"></div>
+      </div>
+
+      <!-- 5 Bill Splitting -->
+      <div class="card">
+        <h2>5️⃣ Bill Splitting Calculator</h2>
+        <input type="number" id="totalBill" placeholder="Total Bill" />
+        <input type="number" id="peopleCount" placeholder="No. of People" />
+        <button onclick="splitBill()">Split</button>
+        <div class="output" id="splitOutput"></div>
+      </div>
+
+      <!-- 6 Shopping Cart -->
+      <div class="card">
+        <h2>6️⃣ Shopping Cart System</h2>
+        <input id="cartItem" placeholder="Item name" />
+        <input type="number" id="cartPrice" placeholder="Price" />
+        <button onclick="addToCart()">Add</button>
+        <button onclick="removeFromCart()">Remove</button>
+        <div class="output" id="cartOutput"></div>
+      </div>
+    </div>
+
+    <script src="day-5.js"></script>
+  </body>
+</html>

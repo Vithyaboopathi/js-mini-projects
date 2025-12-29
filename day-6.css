@@ -1,0 +1,36 @@
+.project-card {
+  height: 50vh;
+  overflow-y: auto;
+}
+.output {
+  background: #f8f9fa;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  min-height: 80px;
+  white-space: pre-wrap;
+}
+.output h3 {
+  margin-top: 0;
+}
+.output p {
+  margin: 5px 0;
+}
+.btn {
+  margin-top: 10px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.form-group button {
+  padding: 10px 15px;
+}
