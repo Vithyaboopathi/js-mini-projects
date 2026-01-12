@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+input,
+textarea {
+  width: 90%;
+  margin-bottom: 8px;
+  padding: 6px;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}

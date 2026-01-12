@@ -17,7 +17,11 @@ body {
   max-width: 700px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
 button {
   padding: 10px 15px;
   margin: 5px;

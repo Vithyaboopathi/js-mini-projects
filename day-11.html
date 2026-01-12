@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Storage Based Mini Projects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>JavaScript Mini Projects (Storage)</h1>
+
+    <!-- 1. Stopwatch -->
+    <section>
+      <h2>1. Stopwatch (SessionStorage)</h2>
+      <p id="time">0</p>
+      <button onclick="startTimer()">Start</button>
+      <button onclick="stopTimer()">Stop</button>
+      <button onclick="resetTimer()">Reset</button>
+    </section>
+
+    <!-- 2. Notes App -->
+    <section>
+      <h2>2. Notes App (LocalStorage)</h2>
+      <textarea id="noteInput" placeholder="Write a note..."></textarea><br />
+      <button onclick="addNote()">Add Note</button>
+      <ul id="notesList"></ul>
+    </section>
+
+    <!-- 3. To-Do App -->
+    <section>
+      <h2>3. To-Do List</h2>
+      <input type="text" id="taskInput" placeholder="Enter task" />
+      <button onclick="addTask()">Add</button>
+      <ul id="taskList"></ul>
+    </section>
+
+    <!-- 4. Survey Form -->
+    <section>
+      <h2>4. Survey Form</h2>
+      <input id="name" placeholder="Name" /><br />
+      <input id="age" type="number" placeholder="Age" /><br />
+      <input id="rating" placeholder="Rating (1-5)" /><br />
+      <textarea id="comments" placeholder="Comments"></textarea><br />
+      <button onclick="saveSurvey()">Save</button>
+    </section>
+
+    <!-- 5. Add to Cart -->
+    <section>
+      <h2>5. Add to Cart</h2>
+      <input
+        id="search"
+        placeholder="Search product"
+        onkeyup="searchProducts()"
+      />
+      <ul id="productList"></ul>
+      <h3>Cart</h3>
+      <ul id="cartList"></ul>
+      <p>Total: ₹<span id="total">0</span></p>
+      <button onclick="clearCart()">Clear Cart</button>
+    </section>
+
+    <!-- 6. Expense Tracker -->
+    <section>
+      <h2>6. Expense Tracker</h2>
+      <input id="expenseName" placeholder="Expense Name" />
+      <input id="expenseAmount" type="number" placeholder="Amount" />
+      <button onclick="addExpense()">Add</button>
+      <ul id="expenseList"></ul>
+      <p>Total Expense: ₹<span id="expenseTotal">0</span></p>
+    </section>
+
+    <button><a href="day-2.html">Day 2 Mini Projects</a></button>
+    <button><a href="day-3.html">Day 3 Mini Projects</a></button>
+    <button><a href="day-4.html">Day 4 Mini Projects</a></button>
+    <button><a href="day-5.html">Day 5 Mini Projects</a></button>
+    <button><a href="day-6.html">Day 6 Mini Projects</a></button>
+    <button><a href="day-7.html">Day 7 Mini Projects</a></button>
+    <button><a href="day-8.html">Day 8 Mini Projects</a></button>
+    <button><a href="day-9.html">Day 9 Mini Projects</a></button>
+    <button><a href="day-10.html">Day 10 Mini Projects</a></button>
+    <button><a href="day-11.html">Day 11 Mini Projects</a></button>
+    <button><a href="day-12.html">Day 12 Mini Projects</a></button>
+    <button><a href="day-13.html">Day 13 Mini Projects</a></button>
+    <button><a href="day-14.html">Day 14 Mini Projects</a></button>
+    <button><a href="day-15.html">Day 15 Mini Projects</a></button>
+    <script src="day-11.js"></script>
+  </body>
+</html>

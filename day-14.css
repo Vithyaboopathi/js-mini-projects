@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f4f6f8;
+  background: #eef2f7;
   padding: 20px;
 }
 
@@ -15,30 +15,20 @@ section {
   border-radius: 6px;
 }
 
-button {
-  margin: 5px 5px 10px 0;
-  padding: 6px 10px;
-}
-
 input,
+textarea,
 select {
   padding: 6px;
   margin-bottom: 10px;
+  width: 100%;
 }
 
-li {
-  cursor: pointer;
-  margin: 5px 0;
-}
-
-.green {
-  color: green;
-}
-
-.red {
-  color: red;
+button {
+  padding: 6px 10px;
+  margin-bottom: 10px;
 }
 
 img {
-  width: 150px;
+  max-width: 300px;
+  display: block;
 }
